@@ -1,0 +1,32 @@
+nodemoo - A multi-player text adventure written in node.js
+
+It's kinda like a MUD or a MOO, and best resembles a multi-player
+text aventure. Oh, and it's written in Javascript.
+
+This is the core engine, and a few example rooms.
+
+It's very incomplete, yet, give me time.
+
+= Implemented =
+
+ * Rooms
+ * Room chat
+ * Private chat (whisper)
+ * Emote
+ * Basic navigation ("go north" or "n")
+
+TODO:
+
+ * Items
+ * Inventory
+ * Light
+ * Stats
+ * Lots of other stuff
+
+= Author =
+
+Tim Totten
+
+= License =
+
+Artistic License 2.0
