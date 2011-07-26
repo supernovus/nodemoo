@@ -14,6 +14,7 @@ It's very incomplete, yet, give me time.
  * Private chat (whisper)
  * Emote
  * Basic navigation ("go north" or "n")
+ * Mixins
 
 TODO:
 
@@ -21,7 +22,10 @@ TODO:
  * Inventory
  * Light
  * Stats
+ * Real users (who can log in again, etc.)
  * Persistence
+ * Permissions
+ * Other OO patterns?
  * Lots of other stuff
 
 = Author =
