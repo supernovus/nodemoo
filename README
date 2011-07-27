@@ -5,7 +5,9 @@ text aventure. Oh, and it's written in Javascript.
 
 This is the core engine, and a few example rooms.
 
-It's very incomplete, yet, give me time.
+It's under rapid development, and there is no stable API. Things are
+being changed, refactored, rewritten, and generally overhauled faster than
+you can say "oh". That said, it works, in a limited sort of way.
 
 = Implemented =
 
@@ -16,17 +18,17 @@ It's very incomplete, yet, give me time.
  * Basic navigation ("go north" or "n")
  * Mixins
  * Basic world config
+ * Login based users (no passwords yet though.)
 
-TODO:
+= TODO =
 
  * Items
  * Inventory
- * Light
+ * Light / Visibility
  * Stats
- * Real users (who can log in again, etc.)
- * Persistence
  * Permissions
- * Other OO patterns?
+ * Passwords
+ * Persistence (saving Rooms and Clients to disk.)
  * Lots of other stuff
 
 = Author =
