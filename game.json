@@ -1,0 +1,15 @@
+{ 
+  "rooms" : {
+    "start" : {
+      "name"  : "The Lobby",
+      "desc"  : "Not much to see here yet. It's a big, mostly empty room.",
+      "exits" : { "north" : "bathroom" }
+    },
+    "bathroom" : {
+      "name"  : "The Bathroom",
+      "desc"  : "A filthy bathroom, this place stinks!",
+      "exits" : { "south" : "start" },
+      "mixin" : [ "Bathroom" ]
+    }
+  }
+}
