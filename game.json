@@ -32,5 +32,14 @@
       "desc"  : "A massive library filled with thousands of books.",
       "exits" : { "south" : "dining" }
     }
+  },
+  "clients" : {
+    "Admin"   : { 
+      "god"   : true,
+      "can"   : {
+        "build" : true,
+        "admin" : true
+      }
+    }
   }
 }

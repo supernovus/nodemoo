@@ -19,6 +19,8 @@ you can say "oh". That said, it works, in a limited sort of way.
  * Mixins
  * Basic world config
  * Login based users (no passwords yet though.)
+ * Simple permissions (build, admin, etc.)
+ * Built-in default god user (cannot be killed, can always grant, etc.)
 
 = TODO =
 
@@ -26,7 +28,6 @@ you can say "oh". That said, it works, in a limited sort of way.
  * Inventory
  * Light / Visibility
  * Stats
- * Permissions
  * Passwords
  * Persistence (saving Rooms and Clients to disk.)
  * Lots of other stuff
