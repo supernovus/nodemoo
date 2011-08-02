@@ -4,14 +4,33 @@
   "rooms" : {
     "lobby" : {
       "name"  : "The Lobby",
-      "desc"  : "Not much to see here yet. It's a big, mostly empty room.",
-      "exits" : { "north" : "bathroom" }
+      "desc"  : "Not much to see here yet. It's a big, mostly empty room.\nThere are several doors though.",
+      "exits" : { 
+        "north" : "bathroom",
+        "east"  : "kitchen",
+        "west"  : "dining"
+      }
     },
     "bathroom" : {
       "name"  : "The Bathroom",
       "desc"  : "A filthy bathroom, this place stinks!",
       "exits" : { "south" : "lobby" },
       "mixin" : [ "Bathroom" ]
+    },
+    "kitchen" : {
+      "name"  : "The Kitchen",
+      "desc"  : "A fairly clean kitchen, with a nice stove.",
+      "exits" : { "west" : "lobby" }
+    },
+    "dining"  : {
+      "name"  : "The Dining Room",
+      "desc"  : "A very large dining room, with a huge table in the middle.",
+      "exits" : { "east" : "lobby", "north" : "library" }
+    },
+    "library" : {
+      "name"  : "The Library",
+      "desc"  : "A massive library filled with thousands of books.",
+      "exits" : { "south" : "dining" }
     }
   }
 }

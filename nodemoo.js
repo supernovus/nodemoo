@@ -2,6 +2,9 @@
 var net = require('net');
 var world = require('./lib/World.js');
 
+// Let's make "world" available everywhere:
+global.world = world;
+
 // Load the game config.
 world.load('./game.json');
 
