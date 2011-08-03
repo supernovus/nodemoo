@@ -34,12 +34,13 @@
     }
   },
   "clients" : {
-    "Admin"   : { 
+    "Admin"   : {
       "god"   : true,
       "can"   : {
         "build" : true,
         "admin" : true
-      }
+      },
+      "pass"  : "fork"
     }
   }
 }

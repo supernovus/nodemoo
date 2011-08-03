@@ -18,7 +18,7 @@ you can say "oh". That said, it works, in a limited sort of way.
  * Basic navigation ("go north" or "n")
  * Mixins
  * Basic world config
- * Login based users (no passwords yet though.)
+ * Login based users (with optional passphrases.)
  * Simple permissions (build, admin, etc.)
  * Built-in default god user (cannot be killed, can always grant, etc.)
 
@@ -28,9 +28,14 @@ you can say "oh". That said, it works, in a limited sort of way.
  * Inventory
  * Light / Visibility
  * Stats
- * Passwords
  * Persistence (saving Rooms and Clients to disk.)
+ * Color/ANSI terminal effects.
  * Lots of other stuff
+
+= Future =
+
+Expanding it beyond a traditional MUD/MOO, such as an optional web interface, 
+more gaming abilities, etc.
 
 = Author =
 
